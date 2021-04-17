@@ -9,6 +9,24 @@ public class BulletBehaviour : MonoBehaviour
 
     private void OnEnable()
     {
-        bulletRB.AddForce(Vector3.up * Time.deltaTime * bulletForce, ForceMode.Impulse);
+        Ray ray = Camera.main.ViewportPointToRay(Camera.main.transform.position);
+
+        Debug.DrawRay(ray.origin, ray.direction,Color.blue);
+
+        RaycastHit rayHitInfo;
+
+        if(Physics.Raycast(ray, out rayHitInfo))
+        {
+            Vector3 direction = (gameObject.transform.position - rayHitInfo.point).normalized;
+            bulletRB.AddForce(direction * Time.deltaTime * bulletForce, ForceMode.Impulse);
+        } 
+
+        Destroy(gameObject, 2);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Destroy(gameObject);
+    }
+
 }

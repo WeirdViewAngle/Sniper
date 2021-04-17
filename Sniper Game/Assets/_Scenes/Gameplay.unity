@@ -1314,6 +1314,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1800448643224153728, guid: 1effe017b551bbe479a113c402e154eb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 14.2702
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800448643224153728, guid: 1effe017b551bbe479a113c402e154eb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.2702
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800448643224153728, guid: 1effe017b551bbe479a113c402e154eb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 14.2702
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800448643224153728, guid: 1effe017b551bbe479a113c402e154eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3240001
+      objectReference: {fileID: 0}
     - target: {fileID: 6122991349883104874, guid: 1effe017b551bbe479a113c402e154eb, type: 3}
       propertyPath: m_Name
       value: Island
@@ -1362,9 +1378,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6122991351590899414, guid: 1effe017b551bbe479a113c402e154eb, type: 3}
-      propertyPath: m_Name
-      value: Block
-      objectReference: {fileID: 0}
+    - target: {fileID: 6931289373688959454, guid: 1effe017b551bbe479a113c402e154eb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d6133124a2669b54a82abafff9969c7a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1effe017b551bbe479a113c402e154eb, type: 3}

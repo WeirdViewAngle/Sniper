@@ -7,9 +7,9 @@ public class Shot : MonoBehaviour
     [SerializeField] GameObject bullet;
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && GameManager.Instance.takeControllViewState)
         {
-            GameObject newBullet =  Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
+            GameObject newBullet = Instantiate(bullet, gameObject.transform.position, Quaternion.identity);
         }
     }
 }

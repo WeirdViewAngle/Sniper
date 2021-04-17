@@ -1,0 +1,155 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.867; Version 2004; 64bit' Language: 'ru' Physical Memory: 15993 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/oryeo/Desktop/Artyom/Git_Storage2/Sniper/Sniper Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53473
+Successfully changed project path to: C:/Users/oryeo/Desktop/Artyom/Git_Storage2/Sniper/Sniper Game
+C:/Users/oryeo/Desktop/Artyom/Git_Storage2/Sniper/Sniper Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 87.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0f1 (61a549675243)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oryeo/Desktop/Artyom/Git_Storage2/Sniper/Sniper Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2100M (ID=0x11fc)
+    Vendor:   NVIDIA
+    VRAM:     2009 MB
+    Driver:   24.21.13.9836
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002373 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.056 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2707 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.3 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3160.
+Total: 2.653600 ms (FindLiveObjects: 0.273400 ms CreateObjectMapping: 0.136400 ms MarkObjects: 2.176900 ms  DeleteObjects: 0.065400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Gameplay/Shoting/Shot.cs
+  artifactKey: Guid(60fecd6dd1d854e41bb8958d9baba71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gameplay/Shoting/Shot.cs using Guid(60fecd6dd1d854e41bb8958d9baba71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e8cb90f48b5503e3a320d59e38802b') in 0.028400 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.4 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3163.
+Total: 3.595100 ms (FindLiveObjects: 0.433700 ms CreateObjectMapping: 0.230700 ms MarkObjects: 2.899700 ms  DeleteObjects: 0.029100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003328 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3166.
+Total: 2.449100 ms (FindLiveObjects: 0.272600 ms CreateObjectMapping: 0.144700 ms MarkObjects: 2.006300 ms  DeleteObjects: 0.024500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 376.303204 seconds.
+  path: Assets/Scripts/Gameplay/Shoting/BulletBehaviour.cs
+  artifactKey: Guid(bd2c7f2141214a947add77fd3d6cc00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gameplay/Shoting/BulletBehaviour.cs using Guid(bd2c7f2141214a947add77fd3d6cc00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6bc6841ff4b477ea94004b69c2c07b') in 0.016486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.214969 seconds.
+  path: Assets/Prefabs/Weapon
+  artifactKey: Guid(4c4b7d5b5587ea34aa56fd70ba4cf3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapon using Guid(4c4b7d5b5587ea34aa56fd70ba4cf3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd174828496c437ea4696546d174cd84e') in 0.011353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.399525 seconds.
+  path: Assets/Prefabs/Weapon/Bullet.prefab
+  artifactKey: Guid(ff26a2ac919fcd343a38e4887db43e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapon/Bullet.prefab using Guid(ff26a2ac919fcd343a38e4887db43e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5390b457d4b539b3583e777131dfcf46') in 0.118258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.312439 seconds.
+  path: Assets/Prefabs/Weapon/Bullet.prefab
+  artifactKey: Guid(ff26a2ac919fcd343a38e4887db43e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapon/Bullet.prefab using Guid(ff26a2ac919fcd343a38e4887db43e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241947a312ea954bf321a3ba052a3d42') in 0.018298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.244901 seconds.
+  path: Assets/Prefabs/Island
+  artifactKey: Guid(8c902cc5b9675ac42b7c1c0371eb0f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Island using Guid(8c902cc5b9675ac42b7c1c0371eb0f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b43db868ed5ddb6ae7618968a50996') in 0.013424 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
