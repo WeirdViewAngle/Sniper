@@ -21,7 +21,10 @@ public class CameraBehaviour : MonoBehaviour
             {
                 gameObject.transform.position = DefaultPosition.position;
                 gameObject.transform.rotation = DefaultPosition.transform.rotation;
-                GameManager.Instance.zoomX1.Invoke();
+                if (zoomX2)
+                {
+                    GameManager.Instance.Scope.Invoke(-15);
+                }
                 GameManager.Instance.zoomedOutState.Invoke();               
             }
         }
@@ -32,12 +35,12 @@ public class CameraBehaviour : MonoBehaviour
             if (mouseWheelInput > 0 && !zoomX2)
             {
                 zoomX2 = true;
-                GameManager.Instance.zoomX2.Invoke();
+                GameManager.Instance.Scope.Invoke(15);
             }
             else if(mouseWheelInput < 0 && zoomX2)
             {
                 zoomX2 = false;
-                GameManager.Instance.zoomX1.Invoke();
+                GameManager.Instance.Scope.Invoke(-15);
             }
         }
     }

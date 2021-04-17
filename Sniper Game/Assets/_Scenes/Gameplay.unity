@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -494,10 +494,7 @@ MonoBehaviour:
   zoomedOutState:
     m_PersistentCalls:
       m_Calls: []
-  zoomX2:
-    m_PersistentCalls:
-      m_Calls: []
-  zoomX1:
+  Scope:
     m_PersistentCalls:
       m_Calls: []
   takeControllViewState: 0
@@ -989,9 +986,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1223601310}
-  - component: {fileID: 1223601312}
-  - component: {fileID: 1223601311}
   - component: {fileID: 1223601313}
+  - component: {fileID: 1223601311}
   m_Layer: 0
   m_Name: ScopePosition
   m_TagString: Untagged
@@ -1022,19 +1018,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1223601309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f976074a658bf5941942dd89f588df0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1223601312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223601309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65e0efb0068540429525327205e1205, type: 3}
+  m_Script: {fileID: 11500000, guid: 61a48d623c1d1014db019ff22f081e07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1223601313

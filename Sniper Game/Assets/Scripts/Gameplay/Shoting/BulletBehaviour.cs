@@ -9,6 +9,6 @@ public class BulletBehaviour : MonoBehaviour
 
     private void OnEnable()
     {
-        bulletRB.AddForce(Vector3.forward * Time.deltaTime * bulletForce, ForceMode.Impulse);
+        bulletRB.AddForce(Vector3.up * Time.deltaTime * bulletForce, ForceMode.Impulse);
     }
 }

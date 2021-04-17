@@ -43,7 +43,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public UnityEvent zoomedInState, zoomedOutState, zoomX2, zoomX1;
+    public UnityEvent zoomedInState, zoomedOutState;
+    public UnityEvent<int> Scope;
     public bool takeControllViewState;
 
 
