@@ -5,23 +5,13 @@ using UnityEngine;
 public class BulletBehaviour : MonoBehaviour
 {
     [SerializeField] Rigidbody bulletRB;
+
     public float bulletForce;
 
-    private void OnEnable()
+    RaycastHit rayInfo;
+    private void Awake()
     {
-        Ray ray = Camera.main.ViewportPointToRay(Camera.main.transform.position);
-
-        Debug.DrawRay(ray.origin, ray.direction,Color.blue);
-
-        RaycastHit rayHitInfo;
-
-        if(Physics.Raycast(ray, out rayHitInfo))
-        {
-            Vector3 direction = (gameObject.transform.position - rayHitInfo.point).normalized;
-            bulletRB.AddForce(direction * Time.deltaTime * bulletForce, ForceMode.Impulse);
-        } 
-
-        Destroy(gameObject, 2);
+        GameManager.Instance.rayInfo.AddListener(HandleRayInfo);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -29,4 +19,16 @@ public class BulletBehaviour : MonoBehaviour
         Destroy(gameObject);
     }
 
+    void HandleRayInfo(RaycastHit gotRayInfo)
+    {
+        rayInfo = gotRayInfo;
+        Vector3 direction = (rayInfo.point - gameObject.transform.position).normalized;
+        ShotBullet(direction);
+    }
+
+    void ShotBullet(Vector3 direction)
+    {
+        bulletRB.AddForce(direction * Time.deltaTime * bulletForce, ForceMode.Impulse);
+        Destroy(gameObject, 2f);
+    }
 }

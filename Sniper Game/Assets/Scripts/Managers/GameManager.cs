@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
 
     public UnityEvent zoomedInState, zoomedOutState;
     public UnityEvent<int> Scope;
+    public UnityEvent<RaycastHit> rayInfo;
     public bool takeControllViewState;
 
 

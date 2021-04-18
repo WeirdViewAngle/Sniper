@@ -35,12 +35,12 @@ public class CameraBehaviour : MonoBehaviour
             if (mouseWheelInput > 0 && !zoomX2)
             {
                 zoomX2 = true;
-                GameManager.Instance.Scope.Invoke(15);
+                GameManager.Instance.Scope.Invoke(10);
             }
             else if(mouseWheelInput < 0 && zoomX2)
             {
                 zoomX2 = false;
-                GameManager.Instance.Scope.Invoke(-15);
+                GameManager.Instance.Scope.Invoke(-10);
             }
         }
     }
