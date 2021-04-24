@@ -15,7 +15,6 @@ public class Shot : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit)) 
             {
-                print("I'm looking at " + hit.transform.name);
                 GameManager.Instance.rayInfo.Invoke(hit);
             }
         }
