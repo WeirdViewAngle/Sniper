@@ -128,4 +128,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletRB: {fileID: 1688501435735612108}
-  bulletForce: 6000
+  bulletForce: 60

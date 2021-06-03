@@ -28,7 +28,7 @@ public class BulletBehaviour : MonoBehaviour
 
     void ShotBullet(Vector3 direction)
     {
-        bulletRB.AddForce(direction * Time.deltaTime * bulletForce, ForceMode.Impulse);
+        bulletRB.AddForce(direction * bulletForce, ForceMode.Impulse);
         Destroy(gameObject, 2f);
     }
 }
